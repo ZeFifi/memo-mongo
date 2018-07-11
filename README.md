@@ -6,7 +6,7 @@ Ce repo répertorie tous les points importants relatif à l'apprentissage de Mon
 
 # Qu'est-ce que MongoDB ?
 
-
+MongoDB est un système de gestion de bases de données NoSQL (pour Not Only SQL).
 
 # Installation de MongoDB sous Mac OS
 
@@ -20,8 +20,10 @@ Ici aussi, pour vérifier que l'installation s'est bien déroulée, faites `mong
 
 Maintenant que tout est OK pour l'installation, passons à l'étape suivante.
 
-# Créer une base de données
+# Créer une base de données (ou switcher)
 
-Pour créer une base de données, lancez tout d'abord le Mongo Daemon en tapant `mongod` dans le répertoire de votre projet, puis `mongo`. Ensuite, tapez la commande `use` suivi du nom de la base de données choisi :
+Pour créer une base de données, lancez tout d'abord _Mongo Daemon_ en tapant `mongod` dans le répertoire de votre projet, puis `mongo`. Ensuite, tapez la commande `use` suivi du nom de la base de données choisi :
 
 ```use memoMongo```
+
+Si la base de données n'est pas créée, elle le sera et vous basculerez dessus. Si elle existait déjà, vous basulerez dessus.
